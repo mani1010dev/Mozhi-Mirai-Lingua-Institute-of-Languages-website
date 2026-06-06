@@ -24,7 +24,7 @@ export function About() {
           <div className="absolute -inset-4 gradient-brand rounded-3xl opacity-20 blur-2xl" />
           <img
             src={students}
-            alt="Students learning at Linguaverse"
+            alt="Students learning at Mozhi Mirai"
             loading="lazy"
             width={1280}
             height={960}
@@ -34,9 +34,9 @@ export function About() {
         <div>
           <SectionHeader
             center={false}
-            eyebrow="About Linguaverse"
+            eyebrow="About Mozhi Mirai"
             title={<>Where curious minds become <span className="gradient-text">global citizens</span></>}
-            subtitle="For over a decade, Linguaverse has been helping learners speak the world's most powerful languages with fluency, confidence, and cultural depth."
+            subtitle="For over a decade, Mozhi Mirai has been helping learners speak the world's most powerful languages with fluency, confidence, and cultural depth."
           />
           <div className="mt-8 grid sm:grid-cols-2 gap-4">
             {[

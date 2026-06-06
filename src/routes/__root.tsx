@@ -77,13 +77,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Linguaverse — Master Global Languages" },
+      { title: "Mozhi Mirai — Master Global Languages" },
       { name: "description", content: "Learn English, German, French, Japanese, Spanish, IELTS & TOEFL from certified trainers. Online and offline classes for students, professionals, and corporates." },
-      { name: "author", content: "Linguaverse Institute" },
-      { property: "og:title", content: "Linguaverse — Master Global Languages" },
+      { name: "author", content: "Mozhi Mirai Lingua Institute of Languages" },
+      { property: "og:title", content: "Mozhi Mirai — Master Global Languages" },
       { property: "og:description", content: "Certified language training across 15+ languages with flexible schedules and exam prep." },
       { property: "og:type", content: "website" },
-      { property: "og:site_name", content: "Linguaverse" },
+      { property: "og:site_name", content: "Mozhi Mirai Lingua Institute of Languages" },
       { name: "twitter:card", content: "summary" },
     ],
     links: [
@@ -100,7 +100,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       children: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "EducationalOrganization",
-        name: "Linguaverse Language Institute",
+        name: "Mozhi Mirai Lingua Institute of Languages",
         description: "Premium language training across 15+ languages with certified trainers.",
         url: "/",
       }),

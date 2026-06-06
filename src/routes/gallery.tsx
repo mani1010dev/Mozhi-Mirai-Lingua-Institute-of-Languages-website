@@ -6,9 +6,9 @@ import { Testimonials } from "@/components/home/Testimonials";
 export const Route = createFileRoute("/gallery")({
   head: () => ({
     meta: [
-      { title: "Gallery — Linguaverse" },
-      { name: "description", content: "Glimpses of classrooms, cultural events and workshops at Linguaverse." },
-      { property: "og:title", content: "Linguaverse Gallery" },
+      { title: "Gallery — Mozhi Mirai" },
+      { name: "description", content: "Glimpses of classrooms, cultural events and workshops at Mozhi Mirai." },
+      { property: "og:title", content: "Mozhi Mirai Gallery" },
       { property: "og:description", content: "A look inside our vibrant campus." },
       { property: "og:url", content: "/gallery" },
     ],

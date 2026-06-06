@@ -40,7 +40,7 @@ export function Navbar() {
           <span className="size-9 rounded-xl gradient-brand grid place-items-center text-white">
             <Languages className="size-5" />
           </span>
-          <span>Linguaverse</span>
+          <span>Mozhi Mirai</span>
         </Link>
 
         <nav className="hidden md:flex items-center gap-1">

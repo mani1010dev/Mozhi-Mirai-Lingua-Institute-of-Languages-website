@@ -5,9 +5,9 @@ import { Contact as ContactSection } from "@/components/home/Contact";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact — Linguaverse" },
+      { title: "Contact — Mozhi Mirai" },
       { name: "description", content: "Reach out to enroll, book a free demo, or partner for corporate training." },
-      { property: "og:title", content: "Contact Linguaverse" },
+      { property: "og:title", content: "Contact Mozhi Mirai" },
       { property: "og:description", content: "We'll respond within 24 hours." },
       { property: "og:url", content: "/contact" },
     ],

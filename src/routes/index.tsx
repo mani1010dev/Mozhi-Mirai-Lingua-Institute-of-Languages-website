@@ -14,9 +14,9 @@ import { Contact } from "@/components/home/Contact";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Linguaverse — Master Global Languages, Unlock Global Opportunities" },
+      { title: "Mozhi Mirai — Master Global Languages, Unlock Global Opportunities" },
       { name: "description", content: "Learn English, German, French, Japanese, Spanish, IELTS, TOEFL and more from certified trainers. Flexible online and offline batches." },
-      { property: "og:title", content: "Linguaverse — Master Global Languages" },
+      { property: "og:title", content: "Mozhi Mirai — Master Global Languages" },
       { property: "og:description", content: "Certified language training and exam prep for students, professionals, and corporates." },
       { property: "og:url", content: "/" },
     ],

@@ -84,7 +84,7 @@ export function Contact() {
             <div className="p-6 rounded-2xl bg-card border border-border space-y-4">
               <Info Icon={MapPin} title="Visit us" text="24 Linguistics Avenue, Indiranagar, Bengaluru 560001" />
               <Info Icon={Phone} title="Call us" text="+91 98765 43210" />
-              <Info Icon={Mail} title="Email" text="hello@linguaverse.in" />
+              <Info Icon={Mail} title="Email" text="hello@mozhimirai.in" />
               <a href="https://wa.me/919876543210" className="flex items-center gap-3 p-3 rounded-xl bg-[#25D366]/10 hover:bg-[#25D366]/20 transition">
                 <span className="size-10 rounded-full bg-[#25D366] text-white grid place-items-center"><MessageCircle className="size-5" /></span>
                 <div>

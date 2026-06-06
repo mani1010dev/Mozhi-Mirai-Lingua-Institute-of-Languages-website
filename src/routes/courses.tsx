@@ -7,9 +7,9 @@ import { Process } from "@/components/home/Process";
 export const Route = createFileRoute("/courses")({
   head: () => ({
     meta: [
-      { title: "Courses — Linguaverse" },
+      { title: "Courses — Mozhi Mirai" },
       { name: "description", content: "Explore our English, German, French, Japanese, Spanish, IELTS, TOEFL and corporate training programs." },
-      { property: "og:title", content: "Linguaverse Courses" },
+      { property: "og:title", content: "Mozhi Mirai Courses" },
       { property: "og:description", content: "Find the right language course for your goals." },
       { property: "og:url", content: "/courses" },
     ],
